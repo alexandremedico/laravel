@@ -20,11 +20,13 @@
       <td>
         @foreach($serie->actors as $actor)
         {{ $actor->completeName() }}
+        <br>
         @endforeach
       </td>
       <td>
         @foreach($serie->genres as $genre)
         {{ $genre->name}}
+        <br>
         @endforeach
       </td>
       <td>
